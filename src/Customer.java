@@ -55,9 +55,9 @@ public class Customer {
     }
 
     public String statement(){
-        setStatementStrategy();
 
         return statementStrategy.generateStatement(this);
+
         //refactor the code below.
         /*
         double totalAmount = 0;
