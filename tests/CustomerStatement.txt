@@ -1,0 +1,6 @@
+Rental Record for Jason Wisener
+	Test Movie 1	1.5
+	Test Movie 2	12.0
+	Test Movie 3	3.5
+amount owed is 17.0
+You earned 4 frequent renter points
