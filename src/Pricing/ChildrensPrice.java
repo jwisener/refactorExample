@@ -2,9 +2,7 @@
  * Created by Jason on 3/25/2016.
  */
 public class ChildrensPrice extends Price {
-    public int getPriceCode(){
-        return Movie.CHILDRENS;
-    }
+
 
     @Override
     public double getPrice(int daysRented) {

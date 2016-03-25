@@ -1,5 +1,6 @@
 /**
  * Created by Jason on 3/25/2016.
+ * This will generate a text statement of a customer's statement.
  */
 public class StatementTextStrategy implements IStatementStrategy {
 

@@ -4,7 +4,7 @@ import java.util.ArrayList;
  */
 public class Customer {
     private String name;
-    private ArrayList<Rental> rentals = new ArrayList<Rental>();
+    private ArrayList<Rental> rentals = new ArrayList<>();
     private IStatementStrategy statementStrategy;
 
     public Customer(String name){
@@ -14,6 +14,12 @@ public class Customer {
         setStatementStrategy();
     }
 
+    /** jason wisener
+     * 3/25/16 Set the statement strategy
+     * to use the Text Version, this can
+     * be extended by generating a new Strategy
+     * and implementing the functionality (html, pdf, etc..)
+     */
     private void setStatementStrategy() {
         //set the statement strategy, usually here I would DI, in a startup
         //type module.
@@ -52,6 +58,7 @@ public class Customer {
         setStatementStrategy();
 
         return statementStrategy.generateStatement(this);
+        //refactor the code below.
         /*
         double totalAmount = 0;
         int frequentRenterPoints = 0;

@@ -2,10 +2,6 @@
  * Created by Jason on 3/25/2016.
  */
 public class RegularPrice extends Price {
-    @Override
-    int getPriceCode() {
-        return Movie.REGULAR;
-    }
 
     @Override
     public double getPrice(int daysRented) {
